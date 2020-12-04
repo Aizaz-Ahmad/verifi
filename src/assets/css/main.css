@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+  color: #191923;
+}
+
+:root {
+  --primary-color: #32e875;
+  --main-text-color: #191923;
+}
+.primary-text {
+  color: var(--primary-color);
+}
+.popup-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+.popup-container .wrapper {
+  padding: 100px 0px;
+}
+.popup-backdrop {
+  background-color: #19192332;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 299px;
+}
+.content {
+  width: 1220px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+input:focus,
+button:focus {
+  outline: none;
+}

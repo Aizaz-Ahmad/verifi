@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header/>
+    <Header v-if="false"/>
+    <Platforms id="second-section" v-if="false"/>
+    <HowItWorks/>
+    <ContactUs v-if="false"/>
     <PopupOne v-if="false" />
-    <ContactUs v-if="false" />
-    <HowItWorks v-if="false"/>
-    <Platforms v-if="false"/>
   </div>
 </template>
 

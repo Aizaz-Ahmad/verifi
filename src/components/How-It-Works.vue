@@ -37,30 +37,30 @@ export default {
 <style scoped>
     .container{
         background-color:var(--main-text-color);
-        padding-top:190px;
+        /* padding-top:calc(190 / 1080 * 100vh); */
     }
     .header{
-        font-size: 50px;
+        font-size: calc(50 / 1920 * 100vw);
         font-weight: 500;
         color:white;
         text-align: center;
     }
     p.description{
-        font-size:20px;
+        font-size:calc(20 / 1920 * 100vw);
         opacity:0.6;
         font-weight: lighter;
         color:white;
         line-height: 1.6;
-        margin: 50px 0px;
+        margin: calc(50 / 1080 * 100vh) 0px;
     }
     .features{
         display:flex;
         justify-content:space-between;
-        margin-top:40px;
+        margin-top:calc(40 / 1080 * 100vh);
     }
     .features .feature{
-        width:360px;
-        height:271px;
+        width:calc(360 / 1920 * 100vw);
+        height:calc(271 / 1080 * 100vh);
         position:relative;
         border-radius:20px;
         overflow: hidden;
@@ -79,13 +79,13 @@ export default {
         background-color:white;
     }
     .feature .work-description{
-        width:260px;
+        width:calc(260 / 1920 * 100vw);
         margin:0 auto;
-        margin-top:30px;
+        margin-top:calc(30 / 1080 * 100vh);
     }
     .feature .work-description p{
         color:white;
-        font-size:20px;
+        font-size:calc(20 / 1920 * 100vw);
         text-align: center;
         line-height:1.6;
     }
